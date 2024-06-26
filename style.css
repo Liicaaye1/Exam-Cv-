@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0
+    ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: blueviolet;
+    color: white;
+}
+.header ul{
+    display: flex;
+    gap:50px ;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 400;
+
+
+}
+#Aboutbtn{
+   border-bottom: 1px black solid ;
+}
+/* .main-left{
+    margin-left: 40px;
+} */
+.main-left h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+    
+
+}
+.main-left p{
+    width: 500px;
+}
+.main-right  {
+    width: 400px;
+    position: relative;
+   
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    position: absolute;
+    right: -40px;
+    top: 100px;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    background-color: red;
+    position: absolute;
+    left: -90px;
+    top: 220px;
+  
+}
+.main-right img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+}
+.main-parent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 60px;
+}
+.main-left button{
+    background-color: #fdb935;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+.footer{
+    background-color:blueviolet;
+    height: 100px;
+   margin-top: 30px;
+   padding-top: 12px;
+   text-align: center;
+
+}
+.footer i{
+    font-size: 30px;
+    padding: 8px;
+}
